@@ -1,0 +1,265 @@
+@font-face{
+    font-family:"Reinata";
+    src:url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.eot");
+    src:url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.svg#Reinata") format("svg")
+}
+@font-face{
+    font-family:'Gotham';
+    src:url("../fonts/Gotham-XLight.eot");
+    src:local("Gotham ExtraLight"),local("Gotham-XLight"),
+        url("Gotham-XLight.eot?#iefix") format("embedded-opentype"),
+        url("Gotham-XLight.woff2") format("woff2"),url("Gotham-XLight.woff") format("woff"),
+        url("Gotham-XLight.ttf") format("truetype");font-weight:200;font-style:normal
+}    
+@font-face{
+    font-family:'Gotham';
+    src:url("../fonts/Gotham-Thin.eot");
+    src:local("Gotham Thin"),local("Gotham-Thin"),
+        url("../fonts/Gotham-Thin.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gotham-Thin.woff2") format("woff2"),
+        url("../fonts/Gotham-Thin.woff") format("woff"),
+        url("../fonts/Gotham-Thin.ttf") format("truetype");
+    font-weight:100;
+    font-style:normal
+}
+@font-face{
+    font-family:'Gotham';
+    src:url("../fonts/Gotham-Book.eot");
+    src:local("Gotham Book"),
+        local("Gotham-Book"),
+        url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gotham-Book.woff2") format("woff2"),
+        url("../fonts/Gotham-Book.woff") format("woff"),
+        url("../fonts/Gotham-Book.ttf") format("truetype");
+    font-weight:300;
+    font-style:normal
+}
+@font-face{
+    font-family:'Gotham';
+    src:url("../fonts/Gotham-Light.eot");
+    src:local("Gotham Light"),
+        local("Gotham-Light"),
+        url("../fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gotham-Light.woff2") format("woff2"),
+        url("../fonts/Gotham-Light.woff") format("woff"),
+        url("../fonts/Gotham-Light.ttf") format("truetype");
+    font-weight:200;
+    font-style:normal
+}
+@font-face{
+    font-family:'Gotham';
+    src:url("../fonts/Gotham-Bold.eot");
+    src:local("Gotham Bold"),
+        local("Gotham-Bold"),
+        url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gotham-Bold.woff2") format("woff2"),
+        url("../fonts/Gotham-Bold.woff") format("woff"),
+        url("../fonts/Gotham-Bold.ttf") format("truetype");
+    font-weight:bold;
+    font-style:normal
+}
+@font-face{
+    font-family:'Gotham';
+    src:url("../fonts/Gotham-Medium.eot");
+    src:local("Gotham Medium"),
+        local("Gotham-Medium"),
+        url("../fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gotham-Medium.woff2") format("woff2"),
+        url("../fonts/Gotham-Medium.woff") format("woff"),
+        url("../fonts/Gotham-Medium.ttf") format("truetype");
+    font-weight:500;
+    font-style:normal
+}
+@font-face{
+    font-family:'Gotham';
+    src:url("../fonts/Gotham-Ultra.eot");
+    src:local("Gotham Ultra"),
+        local("Gotham-Ultra"),
+        url("../fonts/Gotham-Ultra.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gotham-Ultra.woff2") format("woff2"),
+        url("../fonts/Gotham-Ultra.woff") format("woff"),
+        url("../fonts/Gotham-Ultra.ttf") format("truetype");
+    font-weight:800;
+    font-style:normal
+}
+@font-face{
+    font-family:'Gotham';
+    src:url("../fonts/Gotham-Black.eot");
+    src:local("Gotham Black"),
+        local("Gotham-Black"),
+        url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gotham-Black.woff2") format("woff2"),
+        url("../fonts/Gotham-Black.woff") format("woff"),
+        url("../fonts/Gotham-Black.ttf") format("truetype");
+    font-weight:900;
+    font-style:normal
+}
+:root{
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #F8337A;
+    --secondary: #B46063;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --crema-suave: #FBF8F6;
+    --crema-suave-2: #EDE7E4;
+    --coral: #E67161;
+    --marron: #785F4E;
+    --marron-claro: #937A69;
+    --marron-claro-2: #CCB4A3;
+    --marron-claro-3: #E5D9D1;
+    --rosa-oscuro: #D89A9E;
+    --rosa-claro: #E5C1C5;
+    --gris: #707070;
+    --nude: #E2D9CC;
+    --verde: #9DDCB0;
+    --white: #fff;
+    --dark-gray: #5B5B5F;
+    --breakpoint-xs: 0;--breakpoint-sm: 576px;--breakpoint-md: 768px;--breakpoint-lg: 992px;--breakpoint-xl: 1200px;
+    --font-family-sans-serif: Gotham;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: var(--primary);
+}
+
+body {
+  margin: 0;
+  font-family: "Gotham", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--marron-claro);
+  text-align: left;
+  background-color: #f8f8fb;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+h1{font-size: 5rem;line-height: 1;}
+h2{font-size: 4rem;}
+
+/* Utility */
+.-left{
+    left: -15px;
+}
+.reinata{
+    font-family:"Reinata"!important;
+    font-weight: 100;
+}
+.color-crema2{
+    color: var(--crema-suave-2);
+}
+.color-secondary{
+    color: var(--secondary);
+}
+.color-marronclaro{
+    color: var(--marron-claro);
+}
+.color-rosaoscuro{
+    color: var(--rosa-oscuro);
+}
+
+.bg-marron3{background-color: var(--marron-claro-3);}
+.bg-crema2{background-color: var(--crema-suave-2);}
+
+.b-radius-20{border-radius: 20px;}
+.border-md{border-width:2px}
+
+.line-trough{text-decoration: line-through;}
+
+/* Hero */
+.hero{
+    background: url(../img/bg-hero.png) no-repeat bottom;
+    background-size: cover;
+    height: auto;
+    padding-top: 100px; 
+}
+.hero .reinata{
+    font-size: 110px;
+    line-height: 1;
+}
+.hero-img{width: 700px;}
+.ribbon{position: relative;margin-bottom: 70px;margin-top: 30px;}
+.ribbon::before{
+    z-index: 0;
+    content: '';
+    background-color: var(--white);
+    height: 57px;
+    width: 330px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 99% 100%, 0 100%);
+    position: absolute;
+    left: -70px;
+    top: -27px;
+}
+
+/* Buttons */
+.btn.color-secondary:hover{
+    background-color: #F8337A!important;
+    color: white;
+}
+.btn{
+    transition: all .3s ease-in-out;
+}
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+.btn-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+    transform: translateY(-8px);
+}
+/* Intro section */
+section.intro{
+    padding: 80px 0;
+}
+.intro img{
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Curso online */
+.curso-online{
+    background-image: url(../img/curso-bg.png);
+}
+
+/* Elevar */
+.elevar{
+    padding: 80px 0;
+}
+.elevar h1{
+    font-size: 180px;
+    line-height: .8;
+    color: var(--rosa-oscuro);
+}
+
+.card-elevar{
+    border: 2px solid var(--rosa-oscuro);
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+.card-elevar:hover{
+    background-color: var(--crema-suave-2);
+}
