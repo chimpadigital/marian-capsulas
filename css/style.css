@@ -1,11 +1,11 @@
 @font-face{
     font-family:"Reinata";
-    src:url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.eot");
-    src:url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.eot?#iefix") format("embedded-opentype"),
-        url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.woff2") format("woff2"),
-        url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.woff") format("woff"),
-        url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.ttf") format("truetype"),
-        url("//db.onlinewebfonts.com/t/b1f8b57f764139aca43d58cff1982ec9.svg#Reinata") format("svg")
+    src:url("../fonts/reinata/b1f8b57f764139aca43d58cff1982ec9.eot");
+    src:url("../fonts/reinata/b1f8b57f764139aca43d58cff1982ec9.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/reinata/b1f8b57f764139aca43d58cff1982ec9.woff2") format("woff2"),
+        url("../fonts/reinata/b1f8b57f764139aca43d58cff1982ec9.woff") format("woff"),
+        url("../fonts/reinata/b1f8b57f764139aca43d58cff1982ec9.ttf") format("truetype"),
+        url("../fonts/reinata/b1f8b57f764139aca43d58cff1982ec9.svg#Reinata") format("svg")
 }
 @font-face{
     font-family:'Gotham';
