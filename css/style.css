@@ -182,7 +182,7 @@ h2{font-size: 4rem;}
 
 .line-trough{text-decoration: line-through;}
 .title{font-size: 122px;}
-.subtitle{font-size: 33px !important;font-weight: bold;}
+.subtitle{font-size: 28px !important;font-weight: bold;}
 .font-weight-medium{font-weight: 500;}
 .font-size-30{font-size: 30px;}
 .mr-3{margin-right: 1rem !important;}
@@ -198,7 +198,7 @@ h2{font-size: 4rem;}
     font-size: 110px;
     line-height: 1;
 }
-.hero-img{width: 700px;}
+.hero-img{width: 600px;}
 .ribbon{position: relative;margin-bottom: 70px;margin-top: 30px;}
 .ribbon::before{
     z-index: 0;
@@ -417,7 +417,7 @@ section.intro{
 #faq h2 {font-size: 40px;}
 #faq .bg-hoja {
     top: -150px;
-    right: -80px;
+    right: 0;
     position: absolute;
 }
 #faq .accordion-button:not(.collapsed) {
