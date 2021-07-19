@@ -451,3 +451,12 @@ footer .icon-socialmedia:hover path {
     border-radius: 50%;
     background-color: var(--secondary);
 }
+
+
+/* Responsive */
+@media (max-width:768px){
+    .hero-img {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
