@@ -451,3 +451,19 @@ footer .icon-socialmedia:hover path {
     border-radius: 50%;
     background-color: var(--secondary);
 }
+
+@media only screen and (max-width: 600px) {
+    .title {font-size: 80px;}
+    .hero-img{width: 100%;}
+    #cursos-online .carousel-control-prev {left: 0;}
+    #cursos-online .carousel-control-next {right: 0;}
+    #about-me { 
+        background: url(../img/bg-about-me-mobile.png);
+        padding: 100px 0;
+    }
+    #for-you { 
+        background: url(../img/bg-for-you-mobile.png);
+        padding: 100px 0;
+    }
+    #testimonials .contenido .img{display: none;}
+}
