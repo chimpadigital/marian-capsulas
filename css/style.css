@@ -349,7 +349,7 @@ section.intro{
 #cursos-online .card .subtitle {font-size: 24px !important;}
 #cursos-online .card .color-gris {font-size: 22px;}
 #cursos-online .card {
-    height: 660px;
+    height: 100%;
     padding: 50px 15px 30px;
     border-radius: 30px;
     border: 3px solid #D89A9E !important;
