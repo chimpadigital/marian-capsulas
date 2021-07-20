@@ -187,6 +187,7 @@ h2{font-size: 4rem;}
 .font-size-30{font-size: 30px;}
 .mr-3{margin-right: 1rem !important;}
 .pr-2{padding-right: 0.5rem !important;}
+.pr-3{padding-right: 1rem !important;}
 /* Hero */
 .hero{
     background: url(../img/bg-hero.png) no-repeat bottom;
@@ -452,11 +453,39 @@ footer .icon-socialmedia:hover path {
     background-color: var(--secondary);
 }
 
-
-/* Responsive */
-@media (max-width:768px){
+@media only screen and (max-width: 600px) {
+    .mr-md-0{margin-right: 0 !important;}
     .hero-img {
         width: 100%;
         margin-top: 40px;
     }
+    .reinata, .title {
+        font-size: 80px;
+        line-height: 0.7 !important;
+    }
+    .elevar h1 {font-size: 120px}
+    .card-elevar img {width: 45%;}
+    #preventa .countdown li {display: block; padding: 10px 0;}
+    #preventa .countdown li span {font-size: 80px;}
+    #section-container .box{height: auto;}
+    #section-container{padding-bottom: 230px;}
+    #cursos-online {margin-top: -80px;}
+    #cursos-online .carousel-control-prev {left: 0;}
+    #cursos-online .carousel-control-next {right: 0;}
+    #cursos-online-3 .font-size-30 {font-size: 20px;}
+    #cursos-online-3 h1{font-size: 30px}
+    #cursos-online-3 strong {font-size: 25px;}
+    #cursos-online-3 h2:first-child {font-size: 80px;}
+    #about-me { 
+        background: url(../img/bg-about-me-mobile.png);
+        padding: 100px 0;
+    }
+    #for-you { 
+        background: url(../img/bg-for-you-mobile.png);
+        padding: 100px 0;
+    }
+    #testimonials .contenido .img{display: none;}
+    #faq h2 {font-size: 30px;}
+    #faq .faq-box {border-radius:20px; padding: 10px;}
+    .accordion-flush .accordion-item .accordion-button {font-size: 20px !important;}
 }
