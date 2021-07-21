@@ -154,8 +154,8 @@ h1, h2, h3, h4, h5, h6{
     font-weight: bold;
 }
 
-h1{font-size: 5rem;line-height: 1;}
-h2{font-size: 4rem;}
+h1{font-size: 4rem;line-height: 1;}
+h2{font-size: 3rem;}
 
 /* Utility */
 .-left{
@@ -184,7 +184,7 @@ h2{font-size: 4rem;}
 .title{font-size: 122px;}
 .subtitle{font-size: 24px !important;font-weight: bold;}
 .font-weight-medium{font-weight: 500;}
-.font-size-30{font-size: 30px;}
+.font-size-30{font-size: 25px;line-height: 1.2;}
 .mr-3{margin-right: 1rem !important;}
 .pr-2{padding-right: 0.5rem !important;}
 .pr-3{padding-right: 1rem !important;}
@@ -261,9 +261,13 @@ section.intro{
 }
 
 .elevar h1{
-    font-size: 180px;
+    font-size: 140px;
     line-height: .8;
     color: var(--rosa-oscuro);
+}
+
+.elevar img {
+    width: 100px;
 }
 
 .card-elevar{
@@ -277,9 +281,9 @@ section.intro{
 
 #section-container {
     margin-top: 90px;
-    background: url(../img/bg-wave.png) no-repeat top center;
+    background: url(../img/bg-wave.png) no-repeat bottom center;
     background-size: cover;
-    padding-bottom: 350px;
+    padding-bottom: 300px;
     /* background: var(--crema-suave); */
 }
 
@@ -346,8 +350,8 @@ section.intro{
     font-weight: 300;
 }
 #cursos-online {margin-bottom: 100px;}
-#cursos-online .card .subtitle {font-size: 24px !important;}
-#cursos-online .card .color-gris {font-size: 22px;}
+#cursos-online .card .subtitle {font-size: 20px !important;     text-align: center;}
+#cursos-online .card .color-gris {font-size: 18px;}
 #cursos-online .card {
     height: 100%;
     padding: 50px 15px 30px;
@@ -359,6 +363,8 @@ section.intro{
 #cursos-online .carousel-control-prev {left: -140px;}
 #cursos-online .carousel-control-next-icon {background-image: url(../img/icon-right-arrow.svg);}
 #cursos-online .carousel-control-next {right: -140px;}
+#cursos-online li img {width: 30px;
+    margin-top: 3px;}
 
 #testimonials .contenido {
     padding: 40px;
@@ -408,7 +414,7 @@ section.intro{
 
 #cursos-online-3 {margin: 100px 0;}
 #cursos-online-3 h1{font-size: 50px}
-#cursos-online-3 strong {font-size: 45px;}
+/* #cursos-online-3 strong {font-size: 40px;} */
 #cursos-online-3 h2:first-child {
     font-size: 104px;
     font-weight:300;
@@ -465,8 +471,8 @@ footer .icon-socialmedia:hover path {
     }
     .elevar h1 {font-size: 120px}
     .card-elevar img {width: 45%;}
-    #preventa .countdown li {display: block; padding: 10px 0;}
-    #preventa .countdown li span {font-size: 80px;}
+    #preventa .countdown li {display: block; padding: 10px 10px;}
+    #preventa .countdown li span {font-size: 30px;}
     #section-container .box{height: auto;}
     #section-container{padding-bottom: 230px;}
     #cursos-online {margin-top: -80px;}
