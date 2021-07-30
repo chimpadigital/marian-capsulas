@@ -276,6 +276,10 @@ section.intro{
     border: 2px solid var(--rosa-oscuro);
     border-radius: 10px;
     transition: all .4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .card-elevar:hover{
     background-color: var(--crema-suave-2);
